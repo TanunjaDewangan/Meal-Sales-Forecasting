@@ -13,16 +13,19 @@ and ensure smooth supply chain operations across its fulfillment centers.
 ## Objective:
 
 Minimize: Forecasting error (e.g., RMSE)
+
 Maximize: Forecast accuracy and business interpretability
 
 ## Constraints:
 
 Minimum: Historical data availability per meal-center combination
+
 Maximum: Forecast horizon limited to 10 weeks
 
 ## Project Structure:
 
 meal_sales_forecasting/
+
 ├── train.csv
 ├── meal_info.csv
 ├── fulfilment_center_info.csv
