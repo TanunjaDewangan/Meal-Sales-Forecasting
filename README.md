@@ -33,17 +33,24 @@ meal_sales_forecasting/
 ## Features:
 
 1.Filterable by Meal ID and Center ID
+
 2.Weekly order trend with moving average
+
 3.Seasonality heatmap (month vs year)
+
 4.Model comparison: SARIMA, Prophet, XGBoost
+
 5.RMSE evaluation with best model highlight
 
 ## How to Run Locally:
+
 1. Clone the Repository
 git clone https://github.com/your-username/meal-sales-forecasting.git
 cd meal-sales-forecasting
+
 2. Install Dependencies
 pip install -r requirements.txt
+
 3. Launch Streamlit App
 streamlit run meal_forecasting_app.py
 The app will open in your browser at http\://localhost:8501
@@ -51,5 +58,7 @@ The app will open in your browser at http\://localhost:8501
 ## Models Used & Model Description:
 
 SARIMA Classical time series model capturing seasonality
+
 Prophet Business-friendly time series tool from Facebook
+
 XGBoost ML model trained on lag features
